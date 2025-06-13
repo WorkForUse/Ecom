@@ -1,0 +1,42 @@
+.nv ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.nv ul li a:active{
+    color: #8c0d4f;
+}
+.nv ul li a:hover{
+    color: #8c0d4f;
+}
+.nv ul li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #8c0d4f;
+    transition: width 0.5s ease;
+}
+.nv ul li a:hover::after {
+    width: 100%;
+}
+
+/* cart box section */
+
+.ImG{
+    width: 75px;
+}
+
+
+.wishlist-dropdown,
+.cart-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 350px;
+  margin-top: 10px;
+  background: #f9f9f9;
+  border-radius: 15px;
+  transition: 0.3s ease;
+  z-index: 999;
+}

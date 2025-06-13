@@ -1,0 +1,11 @@
+.text-ctg{
+    color: #77787b;
+}
+.text-ctg:active{
+    color: #3e0925;
+    border-bottom: 1px solid #3e0925;
+}
+.text-ctg:hover{
+    color: #3e0925;
+    border-bottom: 1px solid #3e0925;
+}

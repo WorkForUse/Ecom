@@ -1,0 +1,19 @@
+body{
+    margin: 0; padding: 0; box-sizing: border-box; font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto; 
+}
+
+.text-one{
+    color: #3e0925;
+}
+.text-two{
+    color: #8c0d4f;
+}
+.bg_first{
+    background-color: #eedbe5;
+    color: #8c0d4f;
+}
+.btnBG-two,.BG-two{
+    background-color: #8c0d4f;
+    color: #f9f3f6;
+}
